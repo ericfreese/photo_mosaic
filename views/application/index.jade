@@ -1,0 +1,18 @@
+extends ../layout
+
+block content
+  .container
+    h1 Photomosaics
+    form(method="post", action="/create", enctype="multipart/form-data")
+      .form-group
+        label(for="source") Source Image
+        input(type="file", name="source", required)
+      .form-group
+        label(for="tiles") Tile Images (.zip)
+        input(type="file", name="tiles", required)
+      .form-group
+        label(for="tile_size") Tile Size (in px)
+        input.form-control(type="number", name="tile_size", value=30, required)
+      button.btn.btn-primary(type="submit") Get it
+
+

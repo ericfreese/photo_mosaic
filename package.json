@@ -1,0 +1,21 @@
+{
+  "name": "photo_mosaic",
+  "version": "0.0.0",
+  "description": "",
+  "main": "photo_mosaic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Freese",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.1.0",
+    "lwip": "0.0.6",
+    "q": "^1.1.2",
+    "busboy": "^0.2.9",
+    "express": "^4.12.0",
+    "jade": "^1.9.2",
+    "body-parser": "^1.12.0",
+    "unzip": "^0.1.11"
+  }
+}
